@@ -21,10 +21,8 @@
             <div class="drawer-content flex flex-col">
                 <Navbar :isDark="isDark" @toggle-drawer="toggleDrawer" @toggle-theme="toggleTheme"/>
                 <!-- Main Content -->
-                <main>
-                    <RouterView>
-
-                    </RouterView>
+                <main class="flex-1 p-6 bg-base-200 dark:bg-backgroundDark">
+                    <RouterView />
                 </main>
             </div>
             

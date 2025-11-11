@@ -1,13 +1,8 @@
 <template lang="">
     <div>
-        
+        <lineChart />
     </div>
 </template>
-<script>
-export default {
-    
-}
+<script setup>
+import lineChart from '../charts/lineChart.vue';
 </script>
-<style lang="">
-    
-</style>
